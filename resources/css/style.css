@@ -1,0 +1,93 @@
+/* Universal Styles */
+html {
+  font-size: 16px;
+  font-family: Helvetica;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.flex {
+  display: flex;
+}
+.animate {
+  transform: translateY(-0.25rem);
+}
+/* Header */
+header {
+  height: 15vh;
+  color: white;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5% 0 20%;
+}
+header img {
+  height: 3rem;
+  transform: translateY(0.75rem);
+  margin-right: 1rem;
+  transition: all 0.25s ease-in-out 1s;
+}
+header h1 {
+  font-size: 2rem;
+}
+header a {
+  font-size: 0.75rem;
+}
+header a:hover {
+  color: firebrick;
+  cursor:alias;
+}
+.headerleft {
+  align-items: center;
+}
+/* Jumbotron */
+#jumbotron {
+  height: 70vh;
+  color: white;
+  background-image: url('../images/moto.jpg');
+  background-size: cover;
+  background-position: left center;
+}
+#jumbotron div {
+  width: 18%;
+  background-color: black;
+  padding: 2rem 0 2rem 1rem;
+  transition: all 400ms ease;
+  position: relative;
+  top: 30%;
+  left: 20%;
+}
+#jumbotron div:hover {
+  transform: scale(1.03);
+  box-shadow: 6px 6px 10px black;
+}
+#jumbotron div:hover a {
+  color: firebrick;
+}
+#jumbotron h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+#jumbotron a {
+  font-size: 1.5rem;
+  transition: all 400ms ease;
+}
+#jumbotron a:hover {
+  color: firebrick;
+  text-decoration: underline;
+}
+/* Navigation */
+#navigation {
+  height: 15vh;
+  background-color: firebrick;
+  justify-content: space-around;
+  align-items: center;
+}
+#navigation li {
+  font-size: 1.25rem;
+  margin: 1rem;
+}
+#navigation li:hover {
+  text-shadow: 1px 1px 5px black;
+}
