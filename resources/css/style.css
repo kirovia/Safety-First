@@ -10,9 +10,6 @@ a {
 .flex {
   display: flex;
 }
-.animate {
-  transform: translateY(-0.25rem);
-}
 /* Header */
 header {
   height: 15vh;
@@ -24,9 +21,7 @@ header {
 }
 header img {
   height: 3rem;
-  transform: translateY(0.75rem);
   margin-right: 1rem;
-  transition: all 0.25s ease-in-out 1s;
 }
 header h1 {
   font-size: 2rem;
